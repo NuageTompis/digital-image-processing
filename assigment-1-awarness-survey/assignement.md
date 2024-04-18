@@ -33,9 +33,22 @@ The following pictures are taken from the game engine *Unity*. On the left is a 
 
 ## Compression
 
+A major downside of digital images is the size that they require on a disk. For decades, efforts were made to reduce their file size, avoiding loss in quality as much as possible. A few file formats emerged and became the standard nowadays.
+
 ### Lossy compressions
 
+*JPEG* is the most widely used lossy file, format. Like many other lossy formats, is takes advantage of the *Discrete Cosine Tranfsorm* (DCT), which derives from the *Fourier Transform*.
+
+The DCT converts a finite sequence of data points into a sum of cosine functions of different frequencies. The DCT is particularly effective for compacting most of the signal's energy into a small number of coefficients, allowing for efficient representation and compression of signals, including audio signals besides images.
+
 ### Lossless compressions
+
+The most common lossless file format for images is probably *PNG*, which uses the *DEFLATE* compression algorithm.
+
+DEFLATE is a combination of 2 algorithms, namely *LZ77* and *Huffman coding*.
+
+- LZ77 replaces repeated occurrences of data with references to a dictionary. It works by sliding a window over the input data and encoding matches as *distance-length* pairs.
+- Huffman coding assigns variable-length codes to input characters based on their frequencies. It uses a binary tree data structure to create an optimal prefix code where the most frequent characters are assigned shorter codes, reducing the average length of the encoded data.
 
 ## Image transformation
 
@@ -83,6 +96,6 @@ Other kinds of filters exist. For instance, to remove a background, we can ask t
 
 ## Processes I am interested in
 
-### Image enhancement
-
 ### Feature extraction
+
+*Feature extraction* aims at identifying meaningful patterns or features from an image. This process will extract relevant information for further analysis tasks. Various techniques exist, such as edge detection, identifying key points, shapes or textures in an image. Feature extraction is also one of many abilities that machine learning algorithms are capable of nowadays.
