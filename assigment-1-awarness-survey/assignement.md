@@ -1,17 +1,16 @@
 ## Summary
 
-- [Task](/assigment-1-awarness-survey/images/#task)
-- [Examples of image processing](/assigment-1-awarness-survey/images/#examples-of-image-processing)
-  - [Projection](/assigment-1-awarness-survey/images/#projection)
-  - [Compression](/assigment-1-awarness-survey/images/#compression)
-    - [Lossy compressions](/assigment-1-awarness-survey/images/#lossy-compressions)
-    - [Lossless compressions](/assigment-1-awarness-survey/images/#lossless-compressions)
-  - [Image enhancement](/assigment-1-awarness-survey/images/#image-enhancement)
-  - [Feature extraction](/assigment-1-awarness-survey/images/#feature-extraction)
-  - [Photograph manipulation](/assigment-1-awarness-survey/images/#photograph-manipulation)
-    - [Background removal](/assigment-1-awarness-survey/images/#background-removal)
-- [Image processing techniques](/assigment-1-awarness-survey/images/#image-processing-techniques)
-  - [Process I am interested in](/assigment-1-awarness-survey/images/#process-i-am-interested-in)
+- [Task](#task)
+- [Examples of image processing](#examples-of-image-processing)
+  - [Projection](#projection)
+  - [Compression](#compression)
+    - [Lossy compressions](#lossy-compressions)
+    - [Lossless compressions](#lossless-compressions)
+  - [Image transformation](#image-transformation)
+- [Image processing techniques](#image-processing-techniques)
+  - [Filters](#filters)
+  - [Processes I am interested in](#processes-i-am-interested-in)
+    - [Feature extraction](#feature-extraction)
 
 # Task
 
