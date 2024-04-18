@@ -1,17 +1,17 @@
 ## Summary
 
-- [Task](/images/#task)
-- [Examples of image processing](/images/#examples-of-image-processing)
-  - [Projection](/images/#projection)
-  - [Compression](/images/#compression)
-    - [Lossy compressions](/images/#lossy-compressions)
-    - [Lossless compressions](/images/#lossless-compressions)
-  - [Image enhancement](/images/#image-enhancement)
-  - [Feature extraction](/images/#feature-extraction)
-  - [Photograph manipulation](/images/#photograph-manipulation)
-    - [Background removal](/images/#background-removal)
-- [Image processing techniques](/images/#image-processing-techniques)
-  - [Process I am interested in](/images/#process-i-am-interested-in)
+- [Task](/assigment-1-awarness-survey/images/#task)
+- [Examples of image processing](/assigment-1-awarness-survey/images/#examples-of-image-processing)
+  - [Projection](/assigment-1-awarness-survey/images/#projection)
+  - [Compression](/assigment-1-awarness-survey/images/#compression)
+    - [Lossy compressions](/assigment-1-awarness-survey/images/#lossy-compressions)
+    - [Lossless compressions](/assigment-1-awarness-survey/images/#lossless-compressions)
+  - [Image enhancement](/assigment-1-awarness-survey/images/#image-enhancement)
+  - [Feature extraction](/assigment-1-awarness-survey/images/#feature-extraction)
+  - [Photograph manipulation](/assigment-1-awarness-survey/images/#photograph-manipulation)
+    - [Background removal](/assigment-1-awarness-survey/images/#background-removal)
+- [Image processing techniques](/assigment-1-awarness-survey/images/#image-processing-techniques)
+  - [Process I am interested in](/assigment-1-awarness-survey/images/#process-i-am-interested-in)
 
 # Task
 
@@ -27,9 +27,9 @@ When 3-dimensional objects are rendered on a 2-dimensional surface, such as a sh
 
 The following pictures are taken from the game engine *Unity*. On the left is a perspective view of a scene, and on the right is a parallel projection of the same scene. 
 
-| Perspective view                  | Parallel view               |
-| --------------------------------- | --------------------------- |
-| ![persp](/images/perspective.jpg) | ![ortho](/images/ortho.jpg) |
+| Perspective view                                              | Parallel view                                           |
+| ------------------------------------------------------------- | ------------------------------------------------------- |
+| ![persp](/assigment-1-awarness-survey/images/perspective.jpg) | ![ortho](/assigment-1-awarness-survey/images/ortho.jpg) |
 
 ## Compression
 
@@ -41,17 +41,17 @@ The following pictures are taken from the game engine *Unity*. On the left is a 
 
 Some basic image manipulation tools are often directly integrated into rendering softwares such as *Android*'s *Gallery* or *Windows*' *Photos* app. Such manipulations include: reversing (vertical or horizontal), rotation, black and white filter, blur, etc.
 
-| Initial Image               | Reversed image                      | Black & White image           | Blurred image                   |
-| --------------------------- | ----------------------------------- | ----------------------------- | ------------------------------- |
-| ![duck](/images//duck.webp) | ![duck](/images//duck-reversed.jpg) | ![duck](/images//duck-bw.jpg) | ![duck](/images//duck-blur.png) |
+| Initial Image                                           | Reversed image                                                  | Black & White image                                       | Blurred image                                               |
+| ------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------- |
+| ![duck](/assigment-1-awarness-survey/images//duck.webp) | ![duck](/assigment-1-awarness-survey/images//duck-reversed.jpg) | ![duck](/assigment-1-awarness-survey/images//duck-bw.jpg) | ![duck](/assigment-1-awarness-survey/images//duck-blur.png) |
 
-| Initial Image               | Edge detection                  |
-| --------------------------- | ------------------------------- |
-| ![duck](/images//duck.webp) | ![duck](/images//duck-lapl.png) |
+| Initial Image                                           | Edge detection                                              |
+| ------------------------------------------------------- | ----------------------------------------------------------- |
+| ![duck](/assigment-1-awarness-survey/images//duck.webp) | ![duck](/assigment-1-awarness-survey/images//duck-lapl.png) |
 
-| Initial image                | Image with background removed         |
-| ---------------------------- | ------------------------------------- |
-| ![bg](/images/surfboard.jpg) | ![no-bg](/images/surfboard-no-bg.png) |
+| Initial image                                            | Image with background removed                                     |
+| -------------------------------------------------------- | ----------------------------------------------------------------- |
+| ![bg](/assigment-1-awarness-survey/images/surfboard.jpg) | ![no-bg](/assigment-1-awarness-survey/images/surfboard-no-bg.png) |
 
 # Image processing techniques
 
