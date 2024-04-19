@@ -89,7 +89,7 @@ $$\frac{1}{9} * \begin{bmatrix}
 1 & 1 & 1
 \end{bmatrix}$$
 
-The previous kernels are all $3*3$ matrices, however digital image processing isn't limited to $3*3$ matrices, for instance $5*5$ or $7*7$ matrices are also frequently used.
+The previous kernels are all $`3*3`$ matrices, however digital image processing isn't limited to $`3*3`$ matrices, for instance $`5*5`$ or $`7*7`$ matrices are also frequently used.
 
 Other kinds of filters exist. For instance, to remove a background, we can ask the user the color that he wants to remove (on the example above it is `rgb(0, 197, 254)`), and then iterate through each pixel: if its value is close to this color then we set its transparancy to 1. This kind of filter doesn't take the neighbor pixels into account. The algorithms for *reversing* and *black & white* filters are similar in that sense.
 
