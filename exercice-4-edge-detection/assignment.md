@@ -28,8 +28,6 @@ Notes:
 
 I then used the Canny Edge detector with the tool available [here](https://imagej.net/ij/plugins/canny/index.html). This is the image that I obtained:
 
-<p align="center">
- <img src="duck-canny-default.png" alt="drawing" width="200"/>
-</p>
+![canny](/exercice-4-edge-detection/images/duck-canny-default.png)
 
 This filter shows impressive results, notably for details such as the drops of water that are right below the duck.
