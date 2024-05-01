@@ -1,3 +1,6 @@
+# You may find comments regarding this task at the following link:
+# https://github.com/NuageTompis/digital-image-processing/blob/main/mini-test-5-1-binarization-algorithm/assignment.md
+
 from PIL import Image
 import numpy as np
 
