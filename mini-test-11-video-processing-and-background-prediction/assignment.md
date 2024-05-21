@@ -1,3 +1,10 @@
+<script type="text/javascript" 
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
+</script>
+
 ## Problem wording
 
 > Suppose we have a 10-valued image from 0-9. Now, if we extracted pixel values at a pixel in time, we observed the following pixel value changes  
@@ -44,13 +51,13 @@ We will also use the formula: $p_1(\omega_0) = p_0(\omega_1|I)$, where $p_0(\ome
 
 This gives us:
 
-$p_1(\omega_0|I=0) = \frac{\frac{3}{13}*\frac{1}{2}}{\frac{1}{2}*\frac{3}{13}+\frac{1}{2}*\frac{1}{10}} = 30/43 \approx 0.7$
+$p_1(\omega_0|I=0) = \frac{\frac{3}{13}\*\frac{1}{2}}{\frac{1}{2}\*\frac{3}{13}+\frac{1}{2}*\frac{1}{10}} = 30/43 \approx 0.7$
 
 `The probability that the pixel is part of a moving object in the first frame is thus estimated at 30%.`
 
 Let us now make the calculus for the second frame:
 
-$p_2(\omega_0|I=1) = \frac{p(I=1|\omega_0)*p_2(\omega_0)}{p_2(\omega_0)*p(I=1|\omega_0)+p_2(\omega_1)*p(I=1|\omega_1)} = p_1(\omega_0|I=0) = \frac{\frac{5}{13}*\frac{30}{43}}{\frac{30}{43}*\frac{5}{13}+\frac{13}{43}*\frac{1}{10}} = \frac{1500}{1669} \approx0.9$
+$p_2(\omega_0|I=1) = \frac{p(I=1|\omega_0)\*p_2(\omega_0)}{p_2(\omega_0)\*p(I=1|\omega_0)+p_2(\omega_1)\*p(I=1|\omega_1)} = p_1(\omega_0|I=0) = \frac{\frac{5}{13}\*\frac{30}{43}}{\frac{30}{43}\*\frac{5}{13}+\frac{13}{43}\*\frac{1}{10}} = \frac{1500}{1669} \approx0.9$
 
 `The probability that the pixel is part of a moving object in the second frame is thus estimated at 10%.`
 
